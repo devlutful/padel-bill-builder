@@ -12,7 +12,7 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice }) => {
   return (
     <div
       id="invoice-preview"
-      className="bg-white text-gray-900 max-w-[210mm] mx-auto shadow-lg"
+      className="bg-white text-gray-900 max-w-[60cm] mx-auto shadow-lg"
       style={{ fontFamily: "'Inter', sans-serif", fontSize: "11px", lineHeight: 1.5 }}
     >
       {/* Header */}
